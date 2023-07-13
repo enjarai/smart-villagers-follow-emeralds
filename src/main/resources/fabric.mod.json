@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "smart-villagers-follow-emeralds",
+	"version": "${version}",
+	"name": "Smart Villagers Follow Emeralds",
+	"description": "Makes villagers follow emeralds. Properly.",
+	"authors": [
+		"enjarai"
+	],
+	"contact": {
+		"homepage": "https://enjarai.dev/",
+		"sources": "https://github.com/enjarai/smart-villagers-follow-emeralds",
+		"issues": "https://github.com/enjarai/smart-villagers-follow-emeralds/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/smart-villagers-follow-emeralds/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.enjarai.svfe.SmartVillagersFollowEmeralds"
+		]
+	},
+	"mixins": [
+		"smart-villagers-follow-emeralds.mixins.json"
+	],
+	"depends": {
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

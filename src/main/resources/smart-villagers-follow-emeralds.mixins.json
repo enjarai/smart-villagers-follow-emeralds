@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "dev.enjarai.svfe.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"VillagerEntityMixin",
+		"VillagerTaskListProviderMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
