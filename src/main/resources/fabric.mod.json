@@ -25,6 +25,14 @@
 	],
 	"depends": {
 		"java": ">=17",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"minecraft": ">=1.19.4"
+	},
+
+	"custom": {
+		"projects": {
+			"modrinth": "KCvFkdNn",
+			"curseforge": 888267
+		}
 	}
 }
